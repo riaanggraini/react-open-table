@@ -1,0 +1,34 @@
+{
+  "name": "ot-menu-test",
+  "version": "1.0.0",
+  "description": "A small scaffold application for building ot-menu",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "i": "^0.3.6",
+    "npm": "^6.13.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
